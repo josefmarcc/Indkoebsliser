@@ -15,6 +15,17 @@
 
 Velkommen til din online indkøbsliste.
 
+<form action="LoginServlet" method="post">
+    <label for="fname">Brugernavn:</label><br>
+    <input type="text" id="fname" name="navn"><br>
+    <label for="lname">Kodeord:</label><br>
+    <input type="text" id="lname" name="Kodeord"><br><br>
+    <input type="submit" value="login">
+</form>
+
+
+
+
 
 
 </body>
