@@ -13,13 +13,22 @@
 <body>
 
 
-Velkommen til din online indkøbsliste.
+<h1>Velkommen til din online indkøbsliste.</h1>
+
+<br>
+<br>
+
+${requestScope.besked}
+
+<br>
+<br>
+
 
 <form action="LoginServlet" method="post">
     <label for="fname">Brugernavn:</label><br>
     <input type="text" id="fname" name="navn"><br>
     <label for="lname">Kodeord:</label><br>
-    <input type="text" id="lname" name="Kodeord"><br><br>
+    <input type="text" id="lname" name="kodeord"><br><br>
     <input type="submit" value="login">
 </form>
 
